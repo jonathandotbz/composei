@@ -48,7 +48,7 @@ func InitServicesAttributes() []Attribute {
 			IsList:           true,
 			Category:         servicesCategory,
 		},
-                {
+		{
 			Name:             "expose",
 			InputDescription: "Expose ports, not published/mapped to host",
 			Example:          "8000",
